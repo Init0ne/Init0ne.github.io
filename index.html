@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cv Web</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&subset=latin" rel="stylesheet">
+  
+  
+</head>
+
+ <!--La primer entrega se encuentra en el repositorio https://github.com/Init0ne/Init0ne.github.io-entrega1-->
+
+
+<body>
+  
+  <header>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#tarjetas-presentacion">Sobre mí</a></li>
+        <li><a href="#mis-servicios">Servicios</a></li>
+        <li><a href="#btn-toggle">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="carta-presentacion" id="tarjetas-presentacion">
+      <div class="carta-presentacion container">
+        <div class="contenedor-tarjetas row">
+          <div class="col">
+            <div class="card-personalizada card text-white bg-dark">
+              <div class="card-1 card-body box-animado">
+                <h3 id="h3-presentacion">Hola yo soy</h3>
+                <h2 id="name">Joy Smith</h2>
+                <h4 id="h4-presentacion">Web Designer</h4>
+                <span class="tarjeta container" >
+                  <p>
+                    Fecha de nacimiento:
+                    <span class="tarjeta-info">
+                      20 de Febrero de 1990
+                    </span> <br>
+                    Direccion:
+                    <span class="tarjeta-info">
+                      Calle 54, La plata
+                    </span> <br>
+                    Correo electronico:
+                    <span class="tarjeta-info">
+                      <a href="joysmith@example.com" id="email">joysmith@example.com</a> 
+                    </span> <br>
+                    Telefono:
+                    <span class="tarjeta-info">
+                      +54 1122331122
+                    </span> <br>
+                  </p>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-personalizada card text-white bg-dark">
+              <div class="card-foto card-body">
+                <img src="img/photo-cv ajustada.jpg" alt="foto de perfil" class="img-perfil img-fluid rounded float-end">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="linea"></div>
+    </section>
+
+    <section class="servicios" id="mis-servicios">
+
+      <div class="titulo">
+        <h2>
+          Mis servicios
+        </h2>
+        <h4>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis odio quibusdam incidunt!
+        </h4>
+      </div>
+
+      <div class="container box-servicios text-center">
+        <div class="row justify-content-center">
+          <div class="col-4"><img src="img/Iconos/devweb.png" alt="icono desarrollo web"></div>
+          <div class="col-4"><img src="img/Iconos/movil.png" alt="icono movil"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4"><h5>Diseño Web</h5></div>
+          <div class="col-4"><h5>Diseño Movil</h5></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quidem eum suscipit officiis ab?</p></div>
+          <div class="col-4"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quidem eum suscipit officiis ab?</p></div>
+        </div>
+      </div>
+
+      <div class="container box-servicios text-center">
+        <div class="row justify-content-center">
+          <div class="col-4"><img src="img/Iconos/desarrollo.png" alt="icono desarrollo"></div>
+          <div class="col-4"><img src="img/Iconos/interaccion.png" alt="icono interaccion"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4"><h5>Desarrollo</h5></div>
+          <div class="col-4"><h5>Diseño de interaccion</h5></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quidem eum suscipit officiis ab?</p></div>
+          <div class="col-4"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quidem eum suscipit officiis ab?</p></div>
+        </div>
+      </div>
+      <div class="linea"></div>
+    </section>
+
+    <div class="boton-test">
+      <button id="btn-toggle">Mostrar testimonios</button>
+    </div>
+
+    <section class="testimonios box-testimonios" id="mis-testimonios">
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-3">
+            <img src="https://randomuser.me/api/portraits/women/70.jpg" alt="foto perfil">
+          </div>
+          <div class="col-3">
+            <h6>Sue Gibson</h6>
+          </div>
+          <div class="col-3">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio obcaecati ipsam iste laudantium eius?</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-3">
+            <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="foto perfil">
+          </div>
+          <div class="col-3">
+            <h6>Jessica Miles</h6>
+          </div>
+          <div class="col-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, error nostrum. Perspiciatis, fuga tempore!</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="formulario" id="contacto">
+
+      <div class="linea"></div>
+
+      <div class="titulo-form">
+        <h2>
+          ¿Tienes algún proyecto?
+        </h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum ducimus sint atque tempore eveniet quos quibusdam non aperiam magni officia.
+        </p>
+      </div>
+
+      <div class="container text-center">
+        <div class="row campos-form justify-content-center">
+          <div class="col-3">
+            <label for="name"></label>
+            <input type="text" placeholder="Ingrese su nombre" name="name" required class="form-control">
+          </div>
+          <div class="col-3">
+            <label for="email"></label>
+            <input type="email" placeholder="Ingrese su Email" name="email" required class="form-control">
+          </div>
+          <div class="col-3">
+            <button type="submit" id="boton-form" class="form-control btn mb-3">Hablemos</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="linea"></div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    
+    <section class="marcas">
+
+      <div class="clientes">
+        <h4>Mis Clientes</h4>
+      </div>
+
+      <div class="container text-center">
+        <div class="row box-marcas aling-items-center">
+          <div class="col-3">
+            <img class="img-fluid" src="img/Marcas/1.png" alt="logo marca">
+          </div>
+          <div class="col-3">
+            <img class="img-fluid" src="img/Marcas/evga.png" alt="logo marca">
+          </div>
+          <div class="col-3">
+            <img class="img-fluid" src="img/Marcas/logo-amazon.png" alt="logo marca">
+          </div>
+          <div class="col-3">
+            <img class="img-fluid" src="img/Marcas/sony-logo.png" alt="logo marca">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
